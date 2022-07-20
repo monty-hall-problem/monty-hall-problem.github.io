@@ -89,7 +89,7 @@
           document.getElementById("part").style.width = String(percent) + '%';
           document.getElementById("stats").innerHTML =
             `Switch: <b>${swap}</b> of ${total} (<b>${percent} %</b>) / Stay: <b>${stay}</b> of ${total} (<b>${100 - percent} %</b>)`;
-          document.getElementById("log").innerHTML += `Car is in ${doors[car]}, chose A. Monty Hall opens ${doors[open]}. I should ${action}!`;
+          document.getElementById("log").innerHTML += `Car is in ${doors[car]}, chose A. Monty Hall opens ${doors[open]}. I should ${action}!<br>`;
         }
       }
       setInterval(simulation, 0);
