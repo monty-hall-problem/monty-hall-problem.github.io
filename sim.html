@@ -44,8 +44,6 @@
       }
     </style>
     <script type="text/javascript">
-      var running = false;
-      document.getElementById("button").innerHTML = "Start";
       var toggle = () => {
         running = !running;
         if (running) {
@@ -63,6 +61,10 @@
     <h1>Simulation</h1>
     <p>This automatic simulation of the Monty Hall Problem will convince you that the chances of winning are higher if you switch.</p>
     <button id="button" onclick="toggle()">Please turn on JavaScript to use this simulation.</button>
+    <script type"text/javascript">
+      var running = false;
+      document.getElementById("button").innerHTML = "Start";
+    </script>
     <br><br><br>
     <div id="full">
       <div id="part">
