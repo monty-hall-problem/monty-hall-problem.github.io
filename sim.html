@@ -44,8 +44,15 @@
       }
     </style>
     <script>
+      var running = false;
       document.getElementById("button").innerHTML = "Start";
       function toggle() {
+        running = !running;
+        if (running) {
+          document.getElementById("button").innerHTML = "Stop";
+        } else {
+          document.getElementById("button").innerHTML = "Start";
+        }
       }
       function simulation() {
       }
