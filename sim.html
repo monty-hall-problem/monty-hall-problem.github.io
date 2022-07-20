@@ -81,7 +81,7 @@
           percent = ((swap / total) || 50) * 100;
           document.getElementById("part").style.width = String(percent) + '%';
           document.getElementById("stats").innerHTML =
-            `Switch: <b>${swap}</b> of ${total} (<b>${percent} %</b>) / Stay: <b>${stay}</b> of ${total} (<b>${percent} %</b>)`;
+            `Switch: <b>${swap}</b> of ${total} (<b>${percent} %</b>) / Stay: <b>${stay}</b> of ${total} (<b>${100 - percent} %</b>)`;
         }
       }
       setInterval(simulation, 0);
