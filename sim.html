@@ -32,9 +32,15 @@
       button:active {
         background-color: #386bb1;
       }
-      div {
+      #full {
         height: 30vh;
-        width: 100vw;
+        width: 100%;
+        background-color: #f00;
+      }
+      #part {
+        width: 50%;
+        height: 30vh;
+        background-color: #070;
       }
     </style>
     <script>
@@ -45,7 +51,9 @@
     <p>This automatic simulation of the Monty Hall Problem will convince you that the chances of winning are higher if you switch.</p>
     <button>Please turn on JavaScript to use this simulation.</button>
     <br><br><br>
-    <div>
+    <div id="full">
+      <div id="part">
+      </div>
     </div>
   </body>
 </html>
