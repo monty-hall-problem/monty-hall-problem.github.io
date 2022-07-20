@@ -9,23 +9,6 @@
       p {
         font-size: 1.5em;
       }
-      .frac {
-        display: inline-block;
-        position: relative;
-        vertical-align: middle;
-        letter-spacing: 0.001em;
-        text-align: center;
-      }
-      .frac > span {
-        display: block;
-        padding: 0.1em;
-      }
-      .frac span.bottom {
-        border-top: thin solid black;
-      }
-      .frac span.symbol {
-        display: none;
-      } 
     </style>
   </head>
   <body>
@@ -33,23 +16,23 @@
     <p>
       Without loss of generality, assume you pick Door A each time. We have 3 cases:
       <br><br>
-      Case 1: The car is in Door C (<div class="frac"><span>1</span><span class="symbol">/</span><span class="bottom">3</span></div> chance).
+      Case 1: The car is in Door C (<sup>1</sup>&frasl;<sub>3</sub> chance).
       <br><br>
-      I must open Door B with the goats because it is the only door with goats you didn't pick. If you switch, you win.
+      I must open Door B with the goat because it is the only door with goats you didn't pick. If you switch, you win.
       <br><br>
-      Case 2: The car is in Door A (<div class="frac"><span>1</span><span class="symbol">/</span><span class="bottom">3</span></div> chance).
+      Case 2: The car is in Door A (<sup>1</sup>&frasl;<sub>3</sub> chance).
       <br><br>
-      I will randomly pick to open Door B (<div class="frac"><span>1</span><span class="symbol">/</span><span class="bottom">6</span></div> chance) or
-      Door C (<div class="frac"><span>1</span><span class="symbol">/</span><span class="bottom">6</span></div> chance).
+      I will randomly pick to open Door B (<sup>1</sup>&frasl;<sub>6</sub> chance) or
+      Door C (<sup>1</sup>&frasl;<sub>6</sub> chance).
       <br><br>
       For each of these, if you switch, you lose.
       <br><br>
-      Case 3: The car is in Door B (<div class="frac"><span>1</span><span class="symbol">/</span><span class="bottom">3</span></div> chance).
+      Case 3: The car is in Door B (<sup>1</sup>&frasl;<sub>3</sub> chance).
       <br><br>
       I will open Door C. If you switch, you win.
       <br><br>
-      Adding everything up, switching gives a <div class="frac"><span>2</span><span class="symbol">/</span><span class="bottom">3</span></div> chance of winning
-      and staying the same gives <div class="frac"><span>1</span><span class="symbol">/</span><span class="bottom">3</span></div> chance of winning.
+      Adding everything up, switching gives a <sup>2</sup>&frasl;<sub>3</sub> chance of winning
+      and staying the same gives <sup>1</sup>&frasl;<sub>3</sub> chance of winning.
     </p>
   </body>
 </html>
