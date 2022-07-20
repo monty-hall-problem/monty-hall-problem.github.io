@@ -44,8 +44,10 @@
       }
     </style>
     <script type="text/javascript">
-      var running = false;
-      document.getElementById("button").innerHTML = "Start";
+      setTimeout(function() {
+        var running = false;
+        document.getElementById("button").innerHTML = "Start";
+      }, 1000);
       var toggle = () => {
         running = !running;
         if (running) {
