@@ -46,7 +46,7 @@
     <script>
       var running = false;
       document.getElementById("button").innerHTML = "Start";
-      function toggle() {
+      var toggle = () => {
         running = !running;
         if (running) {
           document.getElementById("button").innerHTML = "Stop";
@@ -54,7 +54,7 @@
           document.getElementById("button").innerHTML = "Start";
         }
       }
-      function simulation() {
+      var simulation = () => {
       }
       setInterval(simulation, 0);
     </script>
