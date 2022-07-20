@@ -11,7 +11,7 @@
         margin-left: 8px;
         margin-right: 8px;
       }
-      p {
+      p, span {
         font-size: 1.5em;
         margin-left: 8px;
         margin-right: 8px;
@@ -66,9 +66,9 @@
           car = Math.floor(Math.random() * 3);
           if (!car) {
             open = Math.floor(Math.random() * 2) + 1;
-          } else if (running == 1) {
+          } else if (car == 1) {
             open = 2;
-          } else if (running == 2) {
+          } else if (car == 2) {
             open = 1;
           }
           if (!car) {
