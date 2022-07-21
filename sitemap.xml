@@ -1,0 +1,27 @@
+    <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <sitemap>
+        <loc>https://monty-hall-problem.github.io/</loc>
+        <changefreq>daily</changefreq>
+      </sitemap>
+      <sitemap>
+        <loc>https://monty-hall-problem.github.io/explanation</loc>
+        <changefreq>daily</changefreq>
+      </sitemap>
+      <sitemap>
+        <loc>https://monty-hall-problem.github.io/index.html</loc>
+        <changefreq>daily</changefreq>
+      </sitemap>
+      <sitemap>
+        <loc>https://monty-hall-problem.github.io/sim.html</loc>
+        <changefreq>daily</changefreq>
+      </sitemap>
+      <sitemap>
+        <loc>https://monty-hall-problem.github.io/sim-logs.html</loc>
+        <changefreq>daily</changefreq>
+      </sitemap>
+      <sitemap>
+        <loc>https://monty-hall-problem.github.io/404.html</loc>
+        <changefreq>daily</changefreq>
+      </sitemap>
+      
+    </sitemapindex>
